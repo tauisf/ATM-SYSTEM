@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Login",
+            "request": "launch",
+            "mainClass": "bank.management.system.Login",
+            "classPaths": [
+                "lib/jcalendar-tz-1.4.jar",
+                "mysql-connector-java-8.0.28.jar", // Path to your JCalendar JAR file
+                "bin" // Path to your compiled classes
+            ]
+        }
+    ]
+}
